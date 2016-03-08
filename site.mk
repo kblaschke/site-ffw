@@ -27,7 +27,7 @@ GLUON_SITE_PACKAGES := \
 	iwinfo
 
 # Allow overriding the release number from the command line
-DEFAULT_GLUON_RELEASE := 0.6+0-exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.7.1-ffw-$(shell date '+%Y%m%d')
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
