@@ -16,6 +16,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
+	gluon-luci-private-wifi \
 	gluon-luci-wifi-config \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
@@ -24,10 +25,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
+	iperf-mt \
 	iwinfo
 
 # Allow overriding the release number from the command line
-DEFAULT_GLUON_RELEASE := 0.7.1-ffw-$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := wup-$(shell date '+%Y%m%d')
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
@@ -36,4 +38,4 @@ GLUON_PRIORITY ?= 0
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de en fr
