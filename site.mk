@@ -25,7 +25,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
-	iperf-mt \
 	iwinfo
 
 # Allow overriding the release number from the command line
